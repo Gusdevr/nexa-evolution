@@ -30,7 +30,7 @@ const toggleMenuHotDog = () => {
            <a href="#"></a><li>Cases</li>
            <a href="#"></a><li>Serviços</li>
            <a href="#"></a><li>Contato</li>
-           <a href="#"></a><li>Fale com a Nexa</li>
+           <a href="#"></a><li>Converse com a Nexa</li>
          </ul>
          </nav>
         
@@ -47,7 +47,7 @@ const toggleMenuHotDog = () => {
            <a href="#"></a><li>Cases</li>
            <a href="#"></a><li>Serviços</li>
            <a href="#"></a><li>Contato</li>
-           <a href="#"></a><li>Fale com a Nexa</li>
+           <a href="#"></a><li>Converse com a Nexa</li>
          </ul>
         )}
           </div>

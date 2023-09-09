@@ -76,8 +76,9 @@ export const ContainerHeader = styled.header`
 
 
         :hover{
-            color: #f8f8f8;
+            color: #f8f8f81f;
             font-weight: 700;
+            text-shadow: 4px 10px  black;
         }
 
     }
