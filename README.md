@@ -5,7 +5,7 @@ Projeto do site da agência Nexa Evolution, softhouse especializada em desenvolv
 
 
 
-![Logo](https://i.imgur.com/kLSwRNX.png)
+![Logo](https://i.imgur.com/zCC9pPR.png)
 
 
 ## Screenshots
