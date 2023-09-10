@@ -9,7 +9,7 @@ import
 from './styles'
 
 import Header from '../../components/Header'
-import NexaBannerPng from '../../assets/img/nexabannerb.png'
+import NexaBannerPng from '../../assets/img/nexabannerc.png'
 import ArticleSlide from '../../components/ArticleSlider'
 import Footer from '../../components/Footer'
 
