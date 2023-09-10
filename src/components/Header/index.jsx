@@ -2,7 +2,7 @@ import React,{ useState, useEffect } from "react";
 import { ContainerHeader } from "./styles";
 import LogoNexaPng from "../../assets/img/logo2.png";
 import { CgMenuHotdog } from "react-icons/cg";
-
+import { FaBars } from "react-icons/fa";
 
 
 const Header = () => {
@@ -56,7 +56,7 @@ useEffect(() => {
         
 
         <div className="menu-dog">
-          <CgMenuHotdog className="icon-dog" size={'40px'} onClick={toggleMenuHotDog} />
+          <FaBars className="icon-dog" size={'40px'} onClick={toggleMenuHotDog} />
 
       
 
