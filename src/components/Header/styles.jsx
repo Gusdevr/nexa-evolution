@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { colors } from "../../styles/theme"
 
 export const ContainerHeader = styled.header`
     position: fixed;
@@ -11,8 +12,26 @@ export const ContainerHeader = styled.header`
     align-items: center;
     z-index: 1000;
     transition: background-color 1.3s ease;
+    
 
-  
+    &.scrolled {
+    background-color: ${colors.light};
+    transform: scale(1.02); 
+    
+
+
+    
+    img {
+   
+       
+      transform: scale(1.09); 
+     
+    }
+
+    nav li {
+      transform: scale(1.09); 
+    }
+  }
     
 
     @media screen and (max-width: 768px) {
@@ -43,6 +62,8 @@ export const ContainerHeader = styled.header`
         
     }
     }
+
+   
 
     .logo-header img {
        max-width: 150px;

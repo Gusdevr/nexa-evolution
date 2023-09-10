@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React,{ useState, useEffect } from "react";
 import { ContainerHeader } from "./styles";
 import LogoNexaPng from "../../assets/img/logo2.png";
 import { CgMenuHotdog } from "react-icons/cg";
@@ -7,15 +7,35 @@ import { CgMenuHotdog } from "react-icons/cg";
 
 const Header = () => {
 
-  const [isMenuHotdogOpen, setIsMenuHotdogOpen] = useState(false)
+const [isMenuHotdogOpen, setIsMenuHotdogOpen] = useState(false)
+const [scrolled, setScrolled] = useState(false)
+
 
 const toggleMenuHotDog = () => {
   setIsMenuHotdogOpen(!isMenuHotdogOpen)
   setIsAnyDropdownOpen(false)
   closeAllDropdowns()
 }
+
+useEffect(() => {
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setScrolled(true)
+    } else {
+      setScrolled(false)
+    }
+  }
+
+  window.addEventListener('scroll', handleScroll)
+
+  return () => {
+    window.removeEventListener('scroll', handleScroll)
+  }
+}, [])
+
+
   return (
-    <ContainerHeader>
+    <ContainerHeader className={scrolled ? 'scrolled' : ''}>
       <div className="logo-header">
         <a href="/">
           <img src={LogoNexaPng} alt="LogoNexa" />

@@ -7,6 +7,19 @@ export const ContainerSlide = styled.div`
     justify-content: center;
     margin-top: 80px;
     margin-bottom: 200px;
+
+    @media screen and (max-width: 768px){
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+        .left-arrow {
+            display: none;
+        }
+
+        .right-arrow {
+            display: none;
+        }
+    }
   
 
     .article-site {

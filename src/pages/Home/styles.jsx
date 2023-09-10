@@ -28,7 +28,7 @@ export const ContainerHome = styled.div`
 
         h1 {
             font-weight: 700;
-            margin-bottom: 15px;
+            margin-bottom: 8px;
             font-size: 44px;
         }
 
@@ -63,6 +63,14 @@ export const ContainerHome = styled.div`
         flex-direction: column;
         width: 100vw;
         
+        h2 {
+            
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+          
+        }
+        
     }
 `
 
@@ -76,11 +84,34 @@ export const ContentBanner = styled.div`
  }
 
  @media screen and (max-width: 768px) {
+
+    display: flex;
+    flex-direction: column;
+    
     img {
         flex-direction: column;
         width: 100vw;
         height: 400px;
     }
+
+
+    .title-banner {
+        h1 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            position: absolute;
+            margin-bottom: 40px;
+        }
+
+        button {
+            position: absolute;
+            margin-top: 120px;
+            margin-left: 20px;
+        }
+    }
+
+  
         
         
     }

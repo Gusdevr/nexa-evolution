@@ -83,7 +83,7 @@ function ArticleSlide() {
 
   return (
     <ContainerSlide>
-        <FaAngleLeft size={'30px'} style={{marginTop: '360px', cursor:'pointer'}} onClick={prevArticle}>Anterior</FaAngleLeft>
+        <FaAngleLeft className='left-arrow' size={'30px'} style={{marginTop: '360px', cursor:'pointer'}} onClick={prevArticle}>Anterior</FaAngleLeft>
 
       <article className="article-site">
         <img src={articles[currentArticle].imageSrc} alt={articles[currentArticle].title} />
@@ -92,7 +92,7 @@ function ArticleSlide() {
         <a href=""><button>{articles[currentArticle].buttonLabel}</button></a>
       </article>
      
-      <FaAngleRight size={'30px'}  style={{marginTop: '360px', cursor:'pointer'}} onClick={nextArticle}>Próximo</FaAngleRight>
+      <FaAngleRight className='right-arrow' size={'30px'}  style={{marginTop: '360px', cursor:'pointer'}} onClick={nextArticle}>Próximo</FaAngleRight>
     </ContainerSlide>
   )
 }
