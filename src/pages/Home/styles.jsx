@@ -115,6 +115,8 @@ export const ContentBanner = styled.div`
         
         
     }
+
+
  
 `
 
@@ -128,6 +130,8 @@ h2 {
     justify-content: center;
     font-size: 32px;
 }
+
+
     
 `
 
