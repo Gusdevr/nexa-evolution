@@ -61,11 +61,13 @@ const Header = () => {
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="#">Quem Somos</a></li>
-          <li><a href="#">Cases</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Contato</a></li>
-          <li><a href="#">Converse com a Nexa</a></li>
+          <li><a href="quemsomos">Quem Somos</a></li>
+          <li><a href="cases">Cases</a></li>
+          <li><a href="servicos">Serviços</a></li>
+          <li><a href="contato">Contato</a></li>
+          <li><a target="blank"
+          href="https://api.whatsapp.com/send/?phone=%2B5531994752630&text&type=phone_number&app_absent=0"
+          >Converse com a Nexa</a></li>
         </ul>
       </nav>
 
@@ -104,10 +106,10 @@ const Header = () => {
               exit="closed"
             >
               <li><a href="/">Home</a></li>
-              <li><a href="#">Quem Somos</a></li>
-              <li><a href="#">Cases</a></li>
-              <li><a href="#">Serviços</a></li>
-              <li><a href="#">Contato</a></li>
+              <li><a href="quemsomos">Quem Somos</a></li>
+              <li><a href="cases">Cases</a></li>
+              <li><a href="servicos">Serviços</a></li>
+              <li><a href="contato">Contato</a></li>
               <li><a href="#">Converse com a Nexa</a></li>
             </motion.ul>
           )}

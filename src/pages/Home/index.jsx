@@ -12,7 +12,7 @@ import Header from '../../components/Header'
 import NexaBannerPng from '../../assets/img/nexabannerc.png'
 import ArticleSlide from '../../components/ArticleSlider'
 import Footer from '../../components/Footer'
-
+import WhatsAppButton from '../../components/Whatsap'
 
 import ViaRealPng from '../../assets/img/cases/viarealicon.png'
 import IsmaelJpg from '../../assets/img/cases/ismael.jpg'
@@ -25,6 +25,8 @@ const Home = () => {
   return (
    <ContainerHome>
     <Header />
+
+<WhatsAppButton />
 
     <ContentBanner>
 

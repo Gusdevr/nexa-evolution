@@ -70,8 +70,8 @@ export const SectionUs = styled.div`
         display: flex;
         color: #db3939;
         font-weight: 700;
-       position: absolute;
-       margin-left: 800px;
+        position: absolute;
+        margin-left: 700px;
 
    
         
@@ -84,7 +84,7 @@ export const SectionUs = styled.div`
 `
 
 export const ContentService = styled.div`
-position: absolute;
+    position: absolute;
     display: flex;
     justify-content: center;
     width: 100vw;
