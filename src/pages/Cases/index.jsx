@@ -11,6 +11,7 @@ import Footer from '../../components/Footer'
 import ViaRealPng from '../../assets/img/cases/viarealicon.png'
 import IsmaelJpg from '../../assets/img/cases/ismael.jpg'
 import fpartPng from '../../assets/img/cases/fpart.png'
+import WhatsAppButton from '../../components/Whatsap'
 
 const Cases = () => {
   return (
@@ -19,6 +20,7 @@ const Cases = () => {
             <Header />
 
         </div>
+        <WhatsAppButton />
 
         <div className='content-case'>
 

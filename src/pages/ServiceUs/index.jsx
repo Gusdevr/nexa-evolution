@@ -14,6 +14,8 @@ import IconSaPng from '../../assets/icons/iconsa.png'
 import IconSbPng from '../../assets/icons/iconsb.png'
 import IconScPng from '../../assets/icons/iconsc.png'
 import IconSdPng from '../../assets/icons/iconsd.png'
+import WhatsAppButton from '../../components/Whatsap'
+
 
 const ServiceUs = () => {
   return (
@@ -22,6 +24,8 @@ const ServiceUs = () => {
             <Header />
 
         </div>
+
+        <WhatsAppButton />
 
         <div className='content-service'>
 

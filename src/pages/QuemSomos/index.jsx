@@ -7,6 +7,8 @@ import BotPng from '../../assets/img/us/bot.png'
 import SitePng from '../../assets/img/us/site.png'
 import TraficPng from '../../assets/img/us/trafic.png'
 import RedesPng from '../../assets/img/us/redes.png'
+import WhatsAppButton from '../../components/Whatsap'
+
 
 import 
 { 
@@ -24,6 +26,7 @@ const QuemSomos = () => {
         <Header/>
         </div>
 
+<WhatsAppButton />
 
         <SectionUs>
 
