@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
-import { ContainerHeader } from "./styles";
-import LogoNexaPng from "../../assets/img/logo2.png";
-import { CgMenuHotdog } from "react-icons/cg";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { motion, AnimatePresence } from "framer-motion";
+import React, { useState, useEffect } from "react"
+import { ContainerHeader } from "./styles"
+import LogoNexaPng from "../../assets/img/logo2.png"
+// import { CgMenuHotdog } from "react-icons/cg";
+import { FaBars, FaTimes } from "react-icons/fa"
+import { motion, AnimatePresence } from "framer-motion"
 
 const Header = () => {
-  const [isMenuHotdogOpen, setIsMenuHotdogOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [isMenuHotdogOpen, setIsMenuHotdogOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
 
   const ulVariants = {
     open: {
@@ -31,24 +31,24 @@ const Header = () => {
   };
 
   const toggleMenuHotDog = () => {
-    setIsMenuHotdogOpen(!isMenuHotdogOpen);
+    setIsMenuHotdogOpen(!isMenuHotdogOpen)
   };
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
-        setScrolled(true);
+        setScrolled(true)
       } else {
-        setScrolled(false);
+        setScrolled(false)
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll)
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", handleScroll)
     };
-  }, []);
+  }, [])
 
   return (
     <ContainerHeader className={scrolled ? "scrolled" : ""}>
@@ -120,4 +120,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header
