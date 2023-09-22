@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 import 
 { 
@@ -18,6 +19,10 @@ import WhatsAppButton from '../../components/Whatsap'
 
 const Cases = () => {
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  
 
   return (
     <ContainerCases>
@@ -30,11 +35,14 @@ const Cases = () => {
         <div className='content-case'>
 
 
-        <img  src={ CasesPng } alt="" />
+        <img data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"  src={ CasesPng } alt="" />
 
       
 <div className='title-case'>
-<h1>Cases</h1>
+<h1  data-aos="fade-up"
+     data-aos-duration="3000">Cases</h1>
 <p>
 Na Nexa, temos o orgulho de atender uma ampla gama de clientes, 
 desde grandes corporações até pequenas empresas, com um objetivo 
@@ -57,7 +65,8 @@ pois seu êxito é o nosso também.
     <SectionCase>
 
         <div className='title-case'>
-        <h2>Aqui estão alguns dos projetos que nos enchem de orgulho<br />
+        <h2 data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">Aqui estão alguns dos projetos que nos enchem de orgulho<br />
               por ter participado</h2>
         </div>
 
