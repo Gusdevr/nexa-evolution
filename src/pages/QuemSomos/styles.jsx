@@ -8,6 +8,18 @@ export const ContentUs = styled.div`
         justify-content: center;
         display: flex;
         margin-top: 90%;
+
+        @media screen and (max-width: 768px){
+            margin-top: 2650px;
+            
+        }
+
+        @media screen and (max-width: 1280px){
+        display: flex;
+        margin-top: 135%;
+       
+        
+    }
         
     }
 
@@ -18,6 +30,13 @@ export const ContentUs = styled.div`
        
         
     }
+
+    @media screen and (max-width: 1280px){
+        display: flex;
+       
+       
+        
+    }
    
 `
 
@@ -25,6 +44,8 @@ export const SectionUs = styled.div`
     display: flex;
     margin-top: 200px;
     margin-left: 50px;
+
+
    
     @media screen and (max-width: 768px){
         display: flex;
@@ -93,6 +114,37 @@ export const ContentService = styled.div`
     align-items: center;
     gap: 15px;
     margin-top: 1200px;
+
+    @media screen and (max-width: 1280px){
+        display: flex;
+        
+        
+        article img {
+            width: 250px;
+        }
+
+        
+    }
+
+    @media screen and (max-width: 768px){
+        margin-top: 1850px;
+        flex-direction: column;
+        background-color: transparent;
+
+       
+     
+        .title-service h2{
+         color: black;
+         margin-bottom: 730px;
+        }
+    
+
+        article h3{
+        
+          color: black;
+            
+        }
+    }
 
     img {
         display: flex;

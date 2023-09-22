@@ -13,6 +13,34 @@ export const ContentForm = styled.div`
         gap: 10px;
         margin-top: 200px;
         margin-left: 300px;
+
+        @media screen and (max-width: 768px){
+      
+      
+        position: absolute;
+              
+                right: 1%;
+                max-width: 400px;
+                height: 350px;
+                flex-direction: column;
+               background: #fff;
+
+                input {
+                    position: absolute;
+                    top: 150%;
+                    right: -10%;
+                    
+                }
+
+                textarea {
+                    position: absolute;
+                    margin-top: 180px;
+                    right: 0.2%;
+                }
+
+              
+          
+        }
        
 
         .info-content {
@@ -23,7 +51,6 @@ export const ContentForm = styled.div`
             margin-bottom: 500px;
             color: #fff;
 
-           
           
         }
 
@@ -32,6 +59,7 @@ export const ContentForm = styled.div`
         input {
             width: 450px;
             height: 30px;
+
             
            
         }
@@ -39,6 +67,8 @@ export const ContentForm = styled.div`
         textarea {
             width: 450px;
             height: 250px;
+
+
 
           
            

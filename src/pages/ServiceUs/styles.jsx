@@ -4,7 +4,27 @@ export const ContainerServices = styled.div`
     display: flex;
 
 
+
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+    }
+
+
     .content-footer {
+
+        @media screen and (max-width: 1280px){
+      
+          margin-top: 1350px;
+        
+     
+    }
+
+
+        @media screen and (max-width: 768px){
+        flex-direction: column;
+        margin-top: 2600px;
+    }
+
         position: absolute;
         justify-content: center;
         display: flex;
@@ -13,6 +33,34 @@ export const ContainerServices = styled.div`
     }
 
     .content-service {
+
+        @media screen and (max-width: 1280px){
+      
+          img {
+            position: absolute;
+            right: 100px;
+          }
+        
+     
+    }
+
+
+
+        @media screen and (max-width: 768px){
+        flex-direction: column;
+
+            
+
+        .title-service {
+            position: absolute;
+            right: 10%;
+            width: 300px;
+            top: 10%;
+        }
+
+        
+    }
+
         img {
             display: flex;
             width: 600px;
@@ -23,6 +71,22 @@ export const ContainerServices = styled.div`
         }
 
         .title-service {
+
+            @media screen and (max-width: 1280px){
+      
+         
+          margin-left: 90px;
+          width: 400px;
+          
+        
+     
+    }
+
+            @media screen and (max-width: 768px){
+        flex-direction: column;
+        
+    }
+
             display: flex;
             position: absolute;
             margin-top: 200px;
@@ -55,7 +119,25 @@ export const SectionIcon = styled.div`
     align-items: center;
     margin-top: 1000px;
     gap: 200px;
+
+    @media screen and (max-width: 1280px){
+      
+          
+        img {
+            width: 150px;
+        }
+
+        p {
+            max-width: 150px;
+        }
+     
+    }
   
+
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+    }
+
   
     p {
        

@@ -12,6 +12,12 @@ export const ContainerHeader = styled.header`
   z-index: 1000;
   transition: background-color 1.3s ease;
 
+  /* @media screen and (max-width: 1280px){
+      margin-left: 150px;
+      
+     
+    } */
+
   &.scrolled {
     background-color: ${colors.light};
     transform: scale(1.02);

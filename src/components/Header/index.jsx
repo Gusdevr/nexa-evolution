@@ -110,7 +110,8 @@ const Header = () => {
               <li><a href="cases">Cases</a></li>
               <li><a href="servicos">Serviços</a></li>
               <li><a href="contato">Contato</a></li>
-              <li><a href="#">Converse com a Nexa</a></li>
+              <li><a href="https://api.whatsapp.com/send/?phone=%2B5531994752630&text&type=phone_number&app_absent=0">
+                Converse com a Nexa</a></li>
             </motion.ul>
           )}
         </AnimatePresence>

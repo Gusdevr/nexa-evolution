@@ -4,16 +4,74 @@ export const ContainerCases = styled.div`
     display: flex;
     justify-content: space-around;
 
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        
+     
+    }
+
+   
+
     .content-footer {
         position: absolute;
         justify-content: center;
         display: flex;
         margin-top: 80%;
+
+        @media screen and (max-width: 1280px){
+      
+       z-index: 1000;
+       margin-top: 1500px;
+     
+    }
+        
+
+        @media screen and (max-width: 768px){
+        flex-direction: column;
+        top: 250%;
+        
+     
+    }
+
+ 
+        
         
     }
 
 
     .content-case {
+
+        @media screen and (max-width: 768px){
+        flex-direction: column;
+  
+    
+      
+        .title-case {
+            margin-top: 700px;
+            display: none;
+   
+        }
+
+        .title-case h2{
+            position: absolute;
+            right: 55%;
+         
+           
+     
+       
+        }
+      
+        
+     
+    }
+
+    @media screen and (max-width: 1280px){
+      
+        .title-case {
+            width: 500px;
+        }
+     
+    }
 
         display: flex;
         justify-content: space-around;
@@ -24,11 +82,29 @@ export const ContainerCases = styled.div`
 
         width: 500px;
         border-radius: 10px;
+
+        @media screen and (max-width: 768px){
+        width: 300px;
+       position: absolute;
+       right: 37px;
+       bottom: 30%;
+        
+     
+    }
         
     }
 
     .title-case {
         margin-right: 400px;
+
+        @media screen and (max-width: 768px){
+            position: absolute;
+     
+    
+        
+        
+     
+    }
 
       
 
@@ -51,6 +127,15 @@ export const ContainerCases = styled.div`
 
 
 
+    }
+
+
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+
+     
+        
+     
     }
 
    
@@ -111,6 +196,26 @@ export const SectionCase = styled.div`
         margin-bottom: 650px;
 
       
+    }
+
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        background-color: transparent;
+        margin-top: 2900px;
+        
+
+        h2 {
+            margin-bottom: 900px;
+        }
+      
+     
+        article h3{
+            color: black;
+       
+          
+        }
+        
+     
     }
     
 `
