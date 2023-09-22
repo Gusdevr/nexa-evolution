@@ -28,7 +28,7 @@ export const ContainerServices = styled.div`
         position: absolute;
         justify-content: center;
         display: flex;
-        margin-top: 70%;
+        margin-top: 80%;
     
     }
 
@@ -69,6 +69,7 @@ export const ContainerServices = styled.div`
            
             margin-top: 150px;
           margin-left: 1050px;
+     
            
         
         }
@@ -128,7 +129,7 @@ export const SectionIcon = styled.div`
     justify-content: center;
     width: 100vw;
     align-items: center;
-    margin-top: 1000px;
+    margin-top: 1200px;
     gap: 200px;
 
     @media screen and (max-width: 1280px){
