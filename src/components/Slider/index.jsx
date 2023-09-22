@@ -12,16 +12,14 @@ const Slider = () => {
     <StyledAwesomeSlider>
   <article className='article-site'>
           <img src={IsmaelDecorJpg} alt="" />
-          <h3></h3>
-          <span></span>
-          <button></button>
+    
+    
         </article>
 
         <article className='article-app'>
           <img src={ViaRealPng} alt="" />
-          <h3></h3>
-          <span></span>
-          <button></button>
+   
+      
         </article>
     </StyledAwesomeSlider>
   )

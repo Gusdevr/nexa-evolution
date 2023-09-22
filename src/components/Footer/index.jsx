@@ -25,9 +25,9 @@ const Footer = () => {
    <h3>Fale com a Gente</h3>
      <p><FaRegEnvelope size={'20px'} /> contato@nexaevolution.com.br</p>
      <p><FaRegEnvelope size={'20px'} /> comercial@nexaevolution.com.br</p>
-    <a href=""><FaWhatsappSquare style={{marginTop: '10px'}} size={'25px'} /></a>
-    <a href=""><FaFacebookSquare size={'25px'} /></a>
-    <a href=""><FaInstagramSquare size={'25px'} /></a>
+    <a href="https://api.whatsapp.com/send?phone=3194752630&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os"><FaWhatsappSquare style={{marginTop: '10px'}} size={'25px'} /></a>
+    <a href="https://www.facebook.com/profile.php?id=61550953239029&locale=pt_BR"><FaFacebookSquare size={'25px'} /></a>
+    <a href="https://www.instagram.com/nexaevolution/"><FaInstagramSquare size={'25px'} /></a>
 
 
     </div>

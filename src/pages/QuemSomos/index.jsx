@@ -31,13 +31,11 @@ const QuemSomos = () => {
 
         <SectionUs>
 
-            <img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" src={ DeveloperJpg } alt="" />
+            <img  src={ DeveloperJpg } alt="" />
 
       
 
-        <h1 data-aos="zoom-out-up">Quem Somos</h1>
+        <h1>Quem Somos</h1>
         <p>
             Somos a Nexa Evolution, especializados em produtos 
             e soluções digitais como websites, landing pages, 
@@ -61,46 +59,36 @@ const QuemSomos = () => {
 
                 
             <div className='title-service'>
-            <h2 data-aos="zoom-out-left">Nossos Serviços</h2>
+            <h2>Nossos Serviços</h2>
             </div>
 
             <article className=''>
-     <a  href=""><img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" src={ AppsPng } alt="" /> </a>
-      <a href=""><h3>Apps Mobile</h3></a>
+     <a  href="#"><img src={ AppsPng } alt="" /> </a>
+      <a href="#"><h3>Apps Mobile</h3></a>
 
      </article>
 
      <article className=''>
-     <a href=""> <img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" src={ BotPng } alt="" /></a>
-      <a href=""><h3>Bots e Automatização</h3></a>
+     <a href="#"> <img  src={ BotPng } alt="" /></a>
+      <a href="#"><h3>Bots e Automatização</h3></a>
 
      </article>
 
      <article className=''>
-      <a href=""><img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" src={ SitePng } alt="" /></a>
-      <a href=""><h3>Sites/Landing Pages</h3></a>
+      <a href="#"><img src={ SitePng } alt="" /></a>
+      <a href="#"><h3>Sites/Landing Pages</h3></a>
 
      </article>
 
      <article className=''>
-      <a href=""><img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" src={ TraficPng } alt="" /></a>
-      <a href=""><h3>Tráfego Pago</h3></a>
+      <a href="#"><img  src={ TraficPng } alt="" /></a>
+      <a href="#"><h3>Tráfego Pago</h3></a>
 
      </article>
 
      <article className=''>
-      <a href=""><img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" src={ RedesPng } alt="" /></a>
-      <a href=""><h3>Redes Sociais</h3></a>
+      <a href="#"><img  src={ RedesPng } alt="" /></a>
+      <a href="#"><h3>Redes Sociais</h3></a>
 
      </article>
 

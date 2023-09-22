@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { ContainerHeader } from "./styles"
 import LogoNexaPng from "../../assets/img/logo2.png"
-// import { CgMenuHotdog } from "react-icons/cg";
+import { CgMenuHotdog } from "react-icons/cg";
 import { FaBars, FaTimes } from "react-icons/fa"
 import { motion, AnimatePresence } from "framer-motion"
 

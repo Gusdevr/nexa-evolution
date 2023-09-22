@@ -45,7 +45,7 @@ const Home = () => {
       com um histórico sólido nos respaldando. Transformamos 
       ideias em realidade e buscamos o sucesso em conjunto.
       </p> */}
-      <a  href=""><button>Conheça nossos produtos</button></a>
+      <a  href="https://www.instagram.com/nexaevolution/"><button>Conheça nossos produtos</button></a>
       </div>
 
       <SectionService>
@@ -64,20 +64,20 @@ const Home = () => {
   
    
      <article className='case-viareal'>
-     <a href=""> <img src={ViaRealPng} alt="" /></a>
-      <a href=""><h3>Via Real</h3></a>
+     <a href="#"> <img src={ViaRealPng} alt="" /></a>
+      <a href="#"><h3>Via Real</h3></a>
 
      </article>
 
      <article className='case-viareal'>
-     <a href=""> <img src={IsmaelJpg} alt="" /></a>
-      <a href=""><h3>Ismael Decor</h3></a>
+     <a href="#"> <img src={IsmaelJpg} alt="" /></a>
+      <a href="#"><h3>Ismael Decor</h3></a>
 
      </article>
 
      <article className='case-viareal'>
-      <a href=""><img src={fpartPng} alt="" /></a>
-      <a href=""><h3>Fp Art</h3></a>
+      <a href="#"><img src={fpartPng} alt="" /></a>
+      <a href="#"><h3>Fp Art</h3></a>
 
      </article>
 

@@ -66,20 +66,20 @@ pois seu êxito é o nosso também.
         </div>
 
         <article className='case-viareal'>
-     <a href=""> <img  src={ViaRealPng} alt="" /></a>
-      <a href=""><h3>Via Real</h3></a>
+     <a href="#"> <img  src={ViaRealPng} alt="" /></a>
+      <a href="#"><h3>Via Real</h3></a>
 
      </article>
 
      <article className='case-viareal'>
-     <a href=""> <img  src={IsmaelJpg} alt="" /></a>
-      <a href=""><h3>Ismael Decor</h3></a>
+     <a href="#"> <img  src={IsmaelJpg} alt="" /></a>
+      <a href="#"><h3>Ismael Decor</h3></a>
 
      </article>
 
      <article className='case-viareal'>
-      <a href=""><img  src={fpartPng} alt="" /></a>
-      <a href=""><h3>Fp Art</h3></a>
+      <a href="#"><img  src={fpartPng} alt="" /></a>
+      <a href="#"><h3>Fp Art</h3></a>
 
      </article>
 
