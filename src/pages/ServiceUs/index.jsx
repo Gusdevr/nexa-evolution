@@ -1,7 +1,4 @@
-import React, { useEffect } from 'react'
-
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import React from 'react'
 
 import 
 { 
@@ -23,10 +20,6 @@ import WhatsAppButton from '../../components/Whatsap'
 
 const ServiceUs = () => {
 
-  useEffect(() => {
-    AOS.init()
-  }, [])
-
   return (
     <ContainerServices>
            <div content-header>
@@ -41,9 +34,7 @@ const ServiceUs = () => {
 
           
 <div className='title-service'>
-<h1 data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">Serviços</h1>
+<h1>Serviços</h1>
 <p>
 Olá! Meu nome é nexa evolution e sou uma especialista em mídia social
 apaixonada por ajudar empresas a alcançarem seu potencial máximo
@@ -60,8 +51,7 @@ da sua marca.
     </div>
 
 
-        <img data-aos="fade-up"
-     data-aos-anchor-placement="center-center" src={ ClientPng } alt="" />
+        <img src={ ClientPng } alt="" />
         
 
 
@@ -73,18 +63,14 @@ da sua marca.
      
 
          <div className='title-one'>
-            <img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" src={ IconSaPng } alt="" />
+            <img  src={ IconSaPng } alt="" />
             <p>Estabelecemos uma marca<br /> ou identidade visual para o seu negócio</p>
             </div>
      
        
 
             <div>
-            <img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" src={ IconSbPng } alt="" />
+            <img src={ IconSbPng } alt="" />
             <p>Impucionamos o seu negócio<br /> e ter altas taxas de conversão</p>
             </div>
       
@@ -92,17 +78,13 @@ da sua marca.
        
 
             <div>
-            <img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" src={ IconScPng } alt="" />
+            <img src={ IconScPng } alt="" />
             <p>Oferecemos orientação em<br /> tecnologia e jornada de transformação digital</p>
             </div>
      
 
             <div>
-            <img data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" src={ IconSdPng } alt="" />
+            <img src={ IconSdPng } alt="" />
             <p> consultoria para expandir sua<br /> presença no mundo dos negócios digitais</p>
             </div>
     
