@@ -38,7 +38,10 @@ export const ContainerServices = styled.div`
       
           img {
             position: absolute;
-            right: 100px;
+            flex-direction: column;
+            right: 125px;
+            width: 150px;
+            top: 85%;
           }
         
      
@@ -63,9 +66,9 @@ export const ContainerServices = styled.div`
 
         img {
             display: flex;
-            width: 150px;
-            margin-top: 800px;
-            margin-right: 25px;
+           
+            margin-top: 150px;
+          margin-left: 1050px;
            
         
         }
