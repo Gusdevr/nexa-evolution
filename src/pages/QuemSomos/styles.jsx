@@ -10,7 +10,7 @@ export const ContentUs = styled.div`
         margin-top: 90%;
 
         @media screen and (max-width: 768px){
-            margin-top: 2650px;
+           
             
         }
 

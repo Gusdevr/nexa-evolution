@@ -55,9 +55,9 @@ img {
     @media screen and (max-width: 768px){
         width: 180px;
         height: 100px;
-        margin-top: 50px;
        margin-left: 220px;
        margin-bottom: 20px;
+     
         
     }
 }
@@ -70,7 +70,6 @@ img {
         justify-content: center;
       
         @media screen and (max-width: 768px){
-            margin-top: 420px;
             padding-bottom: 30px;
             padding-top: 40px;
             max-width: 350px;
@@ -91,6 +90,7 @@ img {
         flex-direction: column;
         max-width: 350px;
         justify-content: center;
+        display: none;
         
         
     }

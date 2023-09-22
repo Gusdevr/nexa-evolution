@@ -123,24 +123,24 @@ const Header = () => {
               exit="closed"
             >
               <li>
-                <a href="/">Home</a>
+              <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/quemsomos">Quem Somos</a>
+              <Link to="/quemsomos">Quem Somos</Link>
               </li>
               <li>
-                <a href="/cases">Cases</a>
+              <Link to="/cases">Cases</Link>
               </li>
               <li>
-                <a href="/servicos">Serviços</a>
+              <Link to="/servicos">Serviços</Link>
+
               </li>
               <li>
-                <a href="/contato">Contato</a>
+              <Link to="/contato">Contato</Link>
               </li>
               <li>
-                <a href="https://api.whatsapp.com/send/?phone=%2B5531994752630&text&type=phone_number&app_absent=0">
-                  Converse com a Nexa
-                </a>
+              <Link to="https://api.whatsapp.com/send/?phone=%2B5531994752630&text&type=phone_number&app_absent=0">
+                Converse com a Nexa</Link>
               </li>
             </motion.ul>
           )}

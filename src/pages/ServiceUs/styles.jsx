@@ -22,7 +22,7 @@ export const ContainerServices = styled.div`
 
         @media screen and (max-width: 768px){
         flex-direction: column;
-        margin-top: 2600px;
+        margin-top: 2400px;
     }
 
         position: absolute;
@@ -63,11 +63,19 @@ export const ContainerServices = styled.div`
 
         img {
             display: flex;
-            width: 600px;
-            margin-top: 150px;
-            margin-left: 1100px;
+            width: 150px;
+            margin-top: 800px;
+            margin-right: 25px;
            
         
+        }
+
+        p {
+            margin-left: 100px;
+        }
+
+        h1 {
+            margin-left: 100px;
         }
 
         .title-service {
