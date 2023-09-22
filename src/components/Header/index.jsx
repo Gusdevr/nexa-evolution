@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from "react"
-import { ContainerHeader } from "./styles"
-import LogoNexaPng from "../../assets/img/logo2.png"
-import { CgMenuHotdog } from "react-icons/cg";
-import { FaBars, FaTimes } from "react-icons/fa"
-import { motion, AnimatePresence } from "framer-motion"
+import React, { useState, useEffect } from "react";
+import { ContainerHeader } from "./styles";
+import LogoNexaPng from "../../assets/img/logo2.png";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
+
 
 const Header = () => {
-  const [isMenuHotdogOpen, setIsMenuHotdogOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
+  const [isMenuHotdogOpen, setIsMenuHotdogOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const ulVariants = {
     open: {
@@ -31,24 +32,24 @@ const Header = () => {
   };
 
   const toggleMenuHotDog = () => {
-    setIsMenuHotdogOpen(!isMenuHotdogOpen)
+    setIsMenuHotdogOpen(!isMenuHotdogOpen);
   };
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
-        setScrolled(true)
+        setScrolled(true);
       } else {
-        setScrolled(false)
+        setScrolled(false);
       }
     };
 
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll)
+      window.removeEventListener("scroll", handleScroll);
     };
-  }, [])
+  }, []);
 
   return (
     <ContainerHeader className={scrolled ? "scrolled" : ""}>
@@ -59,17 +60,33 @@ const Header = () => {
       </div>
 
       <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/quemsomos">Quem Somos</a></li>
-          <li><a href="/cases">Cases</a></li>
-          <li><a href="/servicos">Serviços</a></li>
-          <li><a href="/contato">Contato</a></li>
-          <li><a target="blank"
-          href="https://api.whatsapp.com/send/?phone=%2B5531994752630&text&type=phone_number&app_absent=0"
-          >Converse com a Nexa</a></li>
-        </ul>
-      </nav>
+  <ul>
+    <li>
+      <Link to="/">Home</Link>
+    </li>
+    <li>
+      <Link to="/quemsomos">Quem Somos</Link>
+    </li>
+    <li>
+      <Link to="/cases">Cases</Link>
+    </li>
+    <li>
+      <Link to="/servicos">Serviços</Link>
+    </li>
+    <li>
+      <Link to="/contato">Contato</Link>
+    </li>
+    <li>
+      <a
+        target="_blank"
+        href="https://api.whatsapp.com/send/?phone=%2B5531994752630&text&type=phone_number&app_absent=0"
+      >
+        Converse com a Nexa
+      </a>
+    </li>
+  </ul>
+</nav>
+
 
       <div className="menu-dog">
         <AnimatePresence>
@@ -86,7 +103,7 @@ const Header = () => {
               transition={{
                 type: "spring",
                 stiffness: 260,
-                damping: 20
+                damping: 20,
               }}
             >
               <FaBars
@@ -105,13 +122,26 @@ const Header = () => {
               animate="open"
               exit="closed"
             >
-              <li><a href="/">Home</a></li>
-              <li><a href="/quemsomos">Quem Somos</a></li>
-              <li><a href="/cases">Cases</a></li>
-              <li><a href="/servicos">Serviços</a></li>
-              <li><a href="/contato">Contato</a></li>
-              <li><a href="https://api.whatsapp.com/send/?phone=%2B5531994752630&text&type=phone_number&app_absent=0">
-                Converse com a Nexa</a></li>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/quemsomos">Quem Somos</a>
+              </li>
+              <li>
+                <a href="/cases">Cases</a>
+              </li>
+              <li>
+                <a href="/servicos">Serviços</a>
+              </li>
+              <li>
+                <a href="/contato">Contato</a>
+              </li>
+              <li>
+                <a href="https://api.whatsapp.com/send/?phone=%2B5531994752630&text&type=phone_number&app_absent=0">
+                  Converse com a Nexa
+                </a>
+              </li>
             </motion.ul>
           )}
         </AnimatePresence>
@@ -120,4 +150,4 @@ const Header = () => {
   );
 };
 
-export default Header
+export default Header;
