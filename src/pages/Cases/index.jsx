@@ -52,11 +52,7 @@ pois seu êxito é o nosso também.
     </div>
 
    
-    <div className='content-footer'>
-
-    <Footer />
-
-    </div>
+   
 
     <SectionCase>
 
@@ -84,6 +80,12 @@ pois seu êxito é o nosso também.
      </article>
 
     </SectionCase>
+
+    <div className='content-footer'>
+
+<Footer />
+
+</div>
 
     </ContainerCases>
   )

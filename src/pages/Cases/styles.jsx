@@ -16,7 +16,7 @@ export const ContainerCases = styled.div`
         position: absolute;
         justify-content: center;
         display: flex;
-      
+        margin-top: 80%;
 
         @media screen and (max-width: 1280px){
       

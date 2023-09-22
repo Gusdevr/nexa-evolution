@@ -123,20 +123,20 @@ const Header = () => {
               exit="closed"
             >
               <li>
-              <Link to="/">Home</Link>
+                <a href="/">Home</a>
               </li>
               <li>
-              <Link to="/quemsomos">Quem Somos</Link>
+              <a href="/quemsomos">Quem Somos</a>
               </li>
               <li>
-              <Link to="/cases">Cases</Link>
+              <a href="/cases">Cases</a>
               </li>
               <li>
-              <Link to="/servicos">Serviços</Link>
+              <a href="/servicos">Serviços</a>
 
               </li>
               <li>
-              <Link to="/contato">Contato</Link>
+              <a href="/contato">Contatos</a>
               </li>
               <li>
               <Link to="https://api.whatsapp.com/send/?phone=%2B5531994752630&text&type=phone_number&app_absent=0">
