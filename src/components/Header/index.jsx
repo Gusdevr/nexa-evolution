@@ -61,7 +61,7 @@ const Header = () => {
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="quemsomos">Quem Somos</a></li>
+          <li><a href="/quemsomos">Quem Somos</a></li>
           <li><a href="cases">Cases</a></li>
           <li><a href="servicos">Serviços</a></li>
           <li><a href="contato">Contato</a></li>

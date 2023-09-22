@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 import 
 { 
@@ -24,8 +24,8 @@ import WhatsAppButton from '../../components/Whatsap'
 const ServiceUs = () => {
 
   useEffect(() => {
-    AOS.init();
-  }, []);
+    AOS.init()
+  }, [])
 
   return (
     <ContainerServices>

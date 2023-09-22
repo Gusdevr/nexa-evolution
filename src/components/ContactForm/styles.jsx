@@ -109,7 +109,7 @@ export const ContentForm = styled.div`
 
         h3 {
             display: flex;
-           color: #85031f ;
+           color: #85031f;
            text-transform: uppercase;
            font-size: 25px;
            font-weight: 700;
