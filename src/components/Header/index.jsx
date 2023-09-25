@@ -6,9 +6,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
 
 
+
 const Header = () => {
   const [isMenuHotdogOpen, setIsMenuHotdogOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  
 
   const ulVariants = {
     open: {
@@ -51,6 +54,13 @@ const Header = () => {
     };
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Comportamento de rolagem suave
+    });
+  };
+
   return (
     <ContainerHeader className={scrolled ? "scrolled" : ""}>
       <div className="logo-header">
@@ -62,19 +72,19 @@ const Header = () => {
       <nav>
   <ul>
     <li>
-      <Link to="/">Home</Link>
+      <Link to="/" onClick={scrollToTop}>Home</Link>
     </li>
     <li>
-      <Link to="/quemsomos">Quem Somos</Link>
+      <Link to="/quemsomos" onClick={scrollToTop}>Quem Somos</Link>
     </li>
     <li>
-      <Link to="/cases">Cases</Link>
+      <Link to="/cases" onClick={scrollToTop}>Cases</Link>
     </li>
     <li>
-      <Link to="/servicos">Serviços</Link>
+      <Link to="/servicos" onClick={scrollToTop}>Serviços</Link>
     </li>
     <li>
-      <Link to="/contato">Contato</Link>
+      <Link to="/contato" onClick={scrollToTop}>Contato</Link>
     </li>
     <li>
       <a
@@ -123,19 +133,19 @@ const Header = () => {
               exit="closed"
             >
               <li>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={scrollToTop}>Home</Link>
               </li>
               <li>
-              <Link to="/quemsomos">Quem Somos</Link>
+              <Link to="/quemsomos" onClick={scrollToTop}>Quem Somos</Link>
               </li>
               <li>
-              <Link to="/cases">Cases</Link>
+              <Link to="/cases" onClick={scrollToTop}>Cases</Link>
               </li>
               <li>
-              <Link to="/servicos">Serviços</Link>
+              <Link to="/servicos" onClick={scrollToTop}>Serviços</Link>
               </li>
               <li>
-              <Link to="/contato">Contato</Link>
+              <Link to="/contato" onClick={scrollToTop}>Contato</Link>
               </li>
               <li>
               <Link to="https://api.whatsapp.com/send/?phone=%2B5531994752630&text&type=phone_number&app_absent=0">
