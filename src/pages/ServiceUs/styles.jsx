@@ -12,6 +12,13 @@ export const ContainerServices = styled.div`
 
     .content-footer {
 
+        @media screen and (max-width: 1500px){
+      
+      margin-top: 1550px;
+    
+ 
+}
+
         @media screen and (max-width: 1280px){
       
           margin-top: 1350px;
@@ -33,6 +40,19 @@ export const ContainerServices = styled.div`
     }
 
     .content-service {
+
+        @media screen and (max-width: 1500px){
+      
+      img {
+        position: absolute;
+        flex-direction: column;
+        right: 55px;
+        width: 450px;
+        top: 5%;
+      }
+    
+ 
+}
 
         @media screen and (max-width: 1280px){
       
@@ -83,6 +103,17 @@ export const ContainerServices = styled.div`
         }
 
         .title-service {
+
+            @media screen and (max-width: 1500px){
+      
+         
+      margin-left: 90px;
+      width: 400px;
+      
+    
+ 
+}
+
 
             @media screen and (max-width: 1280px){
       

@@ -35,6 +35,7 @@ export const ContainerHeader = styled.header`
     flex-direction: column;
     width: 100vw;
 
+  
     nav {
       display: none;
     }

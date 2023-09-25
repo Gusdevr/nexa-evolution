@@ -18,6 +18,14 @@ export const ContainerCases = styled.div`
         display: flex;
         margin-top: 80%;
 
+        @media screen and (max-width: 1400px){
+      
+      z-index: 1000;
+      margin-top: 1500px;
+    
+   }
+       
+
         @media screen and (max-width: 1280px){
       
        z-index: 1000;
@@ -74,6 +82,14 @@ export const ContainerCases = styled.div`
         }
      
     }
+
+    @media screen and (max-width: 1500px){
+      
+      .title-case {
+          width: 500px;
+      }
+   
+  }
 
         display: flex;
         justify-content: space-around;
