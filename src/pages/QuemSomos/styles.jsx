@@ -61,6 +61,13 @@ export const SectionUs = styled.div`
      
           
         }
+
+        h1 {
+            flex-direction: column;
+            position: absolute;
+            right: 50%;
+            top: 85%;
+        }
     
        
     }

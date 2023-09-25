@@ -65,6 +65,8 @@ export const ContainerCases = styled.div`
      
     }
 
+    
+
     @media screen and (max-width: 1280px){
       
         .title-case {
