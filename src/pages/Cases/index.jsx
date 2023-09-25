@@ -66,7 +66,7 @@ pois seu êxito é o nosso também.
 
         <div className='title-case'>
         <h2 data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom">Aqui estão alguns dos projetos que nos enchem de orgulho<br />
+            data-aos-anchor-placement="center-bottom">Aqui estão alguns dos projetos que nos enchem de orgulho<br />
               por ter participado</h2>
         </div>
 

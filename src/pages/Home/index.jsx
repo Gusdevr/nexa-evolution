@@ -52,15 +52,15 @@ const Home = () => {
       ideias em realidade e buscamos o sucesso em conjunto.
       </p> */}
       <a data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="500" href="https://www.instagram.com/nexaevolution/"><button>Conheça nossos produtos</button></a>
+         data-aos-anchor="#example-anchor"
+         data-aos-offset="500"
+         data-aos-duration="500" href="https://www.instagram.com/nexaevolution/"><button>Conheça nossos produtos</button></a>
       </div>
 
       <SectionService>
         <h2 data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
       Conheça nossos serviços</h2>
 
         <ArticleSlide />
@@ -70,7 +70,7 @@ const Home = () => {
     </ContentBanner>
 
     <h2 data-aos="fade-up"
-     data-aos-anchor-placement="center-bottom">
+        data-aos-anchor-placement="center-bottom">
       Nossas Histórias de Sucesso</h2>
 
     <SectionCase>

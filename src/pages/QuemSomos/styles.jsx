@@ -20,6 +20,13 @@ export const ContentUs = styled.div`
        
         
     }
+
+    @media screen and (max-width: 1500px){
+        display: flex;
+        margin-top: 135%;
+       
+        
+    }
         
     }
 
