@@ -16,26 +16,64 @@ export const ContentForm = styled.div`
 
         @media screen and (max-width: 768px){
       
+
+        
       
-        position: absolute;
+          
               
-                right: 1%;
-                max-width: 400px;
+                right: 4%;
+                max-width: 350px;
                 height: 350px;
                 flex-direction: column;
-               background: #fff;
+                background: #fff;
 
                 input {
-                    position: absolute;
-                    top: 150%;
-                    right: -10%;
+                    
+                 
                     
                 }
 
-                textarea {
+                .input-text {
+                    height: 40px;
+                    width: 250px;
+                    z-index: 1000;
+                    outline: none;
+                   
+                }
+
+                .input-email {
+                    height: 40px;
+                    width: 250px;
+                    outline: none;
+                    
+                }
+
+                .btn-subm {
+                    margin-top: 520px;
                     position: absolute;
-                    margin-top: 180px;
-                    right: 0.2%;
+                    width: 350px;
+                    right: 0.5%;
+                    
+                }
+
+                .text-sub {
+
+                   
+                position: absolute;
+                margin-top: 250px;
+                right: 0.1%;
+                width: 352px;
+                flex-direction: column;
+                outline: none;
+               
+             
+         
+
+                }
+
+                .label-text {
+                    margin-top: 20px;
+                    
                 }
 
               

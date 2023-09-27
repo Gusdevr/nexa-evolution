@@ -46,21 +46,21 @@ function ContactForm() {
         <div className="input-area">
           <h3>fale conosco</h3>
           <label htmlFor="name">Nome</label>
-          <input
+          <input className="input-text"
             type="text"
             name="name"
             value={formData.name}
             onChange={handleInputChange}
           />
           <label htmlFor="email">E-mail</label>
-          <input
+          <input className="input-email"
             type="email"
             name="email"
             value={formData.email}
             onChange={handleInputChange}
           />
-          <label htmlFor="message">Mensagem</label>
-          <textarea
+          <label className="label-text" htmlFor="message">Mensagem</label>
+          <textarea className="text-sub"
             name="message"
             value={formData.message}
             onChange={handleInputChange}
