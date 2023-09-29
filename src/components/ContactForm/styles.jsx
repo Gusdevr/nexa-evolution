@@ -36,7 +36,6 @@ export const ContentForm = styled.div`
                 .input-text {
                     height: 40px;
                     width: 250px;
-                    z-index: 1000;
                     outline: none;
                    
                 }
