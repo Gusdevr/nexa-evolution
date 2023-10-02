@@ -79,12 +79,15 @@ function ArticleSlide() {
     setCurrentArticle((prev) => (prev === articles.length - 1 ? 0 : prev + 1))
   }
 
+  
+  
+
   return (
     <ContainerSlide>
       <FaAngleLeft
         className="left-arrow"
         size={"30px"}
-        style={{ marginTop: "360px", cursor: "pointer" }}
+        style={{  marginTop: "360px", cursor: "pointer" }}
         onClick={prevArticle}
       >
         Anterior
@@ -92,6 +95,7 @@ function ArticleSlide() {
 
       <article className="article-site">
         <img
+          onClick={nextArticle}
           src={articles[currentArticle].imageSrc}
           alt={articles[currentArticle].title}
         />
@@ -100,6 +104,7 @@ function ArticleSlide() {
         <a href="https://api.whatsapp.com/send?phone=3194752630&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os">
           <button>{articles[currentArticle].buttonLabel}</button>
         </a>
+
       </article>
 
       <FaAngleRight
@@ -110,7 +115,9 @@ function ArticleSlide() {
       >
         Próximo
       </FaAngleRight>
+      
     </ContainerSlide>
+    
   );
 }
 

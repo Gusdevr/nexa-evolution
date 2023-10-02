@@ -12,17 +12,34 @@ export const ContainerSlide = styled.div`
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
+ 
         .left-arrow {
-            display: none;
+        position: absolute;
+        bottom: 1%;
+        left: 2%;
+      
         }
 
         .right-arrow {
-            display: none;
+        position: absolute;
+        bottom: 1%;
+        left: 90%;
+
         }
+
+     
+
+    
     }
   
 
     .article-site {
+
+        @media screen and (max-width: 768px){
+            img {
+                cursor: pointer;
+            }
+        }
         
         img {
             width: 400px;
