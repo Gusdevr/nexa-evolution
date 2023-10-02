@@ -18,9 +18,11 @@ export const ContainerHeader = styled.header`
      
     } */
 
+   
   &.scrolled {
     background-color: ${colors.light};
     transform: scale(1.02);
+
 
     img {
       transform: scale(1.09);
@@ -28,6 +30,9 @@ export const ContainerHeader = styled.header`
 
     nav li {
       transform: scale(1.09);
+    
+     
+
     }
   }
 
@@ -122,9 +127,11 @@ export const ContainerHeader = styled.header`
     cursor: pointer;
     font-size: 18px;
     font-weight: 500;
+    /* color: white; */
+
 
     :hover {
-      color: #f8f8f81f;
+      color: #d7d1d1aa;
       font-weight: 700;
       text-shadow: 4px 10px black;
     }

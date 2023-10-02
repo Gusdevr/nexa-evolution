@@ -59,9 +59,10 @@ export const ContainerServices = styled.div`
           img {
             position: absolute;
             flex-direction: column;
-            right: 125px;
-            width: 150px;
-            top: 85%;
+            right: 85px;
+            width: 250px;
+            top: 95%;
+
           }
         
      

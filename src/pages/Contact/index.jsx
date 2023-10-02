@@ -2,7 +2,7 @@ import React from 'react'
 import { ContainerContact } from './styles'
 import Header from '../../components/Header'
 import ContactForm from '../../components/ContactForm'
-import FormBannerPng  from '../../assets/img/nexabannerc.png'
+import FormBannerPng  from '../../assets/img/bannercontacta.jpg'
 import Footer from '../../components/Footer'
 import WhatsAppButton from '../../components/Whatsap'
 
