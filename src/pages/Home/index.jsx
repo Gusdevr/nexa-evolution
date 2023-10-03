@@ -13,7 +13,7 @@ import
 from './styles'
 
 import Header from '../../components/Header'
-import NexaBannerPng from '../../assets/img/bannernext.jpg'
+import NexaBannerPng from '../../assets/img/bannernextaa.jpg'
 import ArticleSlide from '../../components/ArticleSlider'
 import Footer from '../../components/Footer'
 import WhatsAppButton from '../../components/Whatsap'
